@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="tao-dev - 大模型应用开发，深耕 RAG 与 Agent 工程化落地。">
+  <title>tao-dev | 大模型应用开发</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas class="signal-canvas" id="signalCanvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="tao-dev home">
+      <span class="brand-mark">td</span>
+      <span>tao-dev</span>
+    </a>
+    <nav class="nav-links" aria-label="页面导航">
+      <a href="#skills">技能</a>
+      <a href="#projects">项目</a>
+      <a href="mailto:tao2006dev@outlook.com">联系</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">LLM Application Developer</p>
+        <h1>把大模型能力落成可用、稳定、可扩展的业务系统。</h1>
+        <p class="intro">
+          基于大模型结合向量库、RAG、Agent 等技术，开发、调试并落地各类 AI 应用与功能。
+        </p>
+        <div class="hero-actions">
+          <a class="primary-action" href="mailto:tao2006dev@outlook.com">联系 tao-dev</a>
+          <a class="secondary-action" href="#projects">查看项目</a>
+        </div>
+      </div>
+
+      <aside class="profile-panel" aria-label="个人摘要">
+        <div class="avatar-shell">
+          <span class="avatar">TD</span>
+        </div>
+        <div>
+          <p class="panel-label">Focus</p>
+          <h2>RAG & Agent 工程化落地</h2>
+          <p>
+            擅长把大模型能力转化为企业可直接使用的业务系统，兼顾性能优化与稳定部署。
+          </p>
+        </div>
+        <dl class="quick-facts">
+          <div>
+            <dt>方向</dt>
+            <dd>大模型应用开发</dd>
+          </div>
+          <div>
+            <dt>邮箱</dt>
+            <dd><a href="mailto:tao2006dev@outlook.com">tao2006dev@outlook.com</a></dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="ticker" aria-label="能力摘要">
+      <span>Vector Database</span>
+      <span>RAG Pipeline</span>
+      <span>AI Agent</span>
+      <span>Multimodal Docs</span>
+      <span>Python Backend</span>
+    </section>
+
+    <section class="content-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Core Skills</p>
+        <h2>围绕真实落地场景构建 AI 应用链路</h2>
+      </div>
+      <div class="skills-grid">
+        <article>
+          <h3>RAG 检索增强开发</h3>
+          <p>向量库部署、文档切片、相似度检索优化。</p>
+        </article>
+        <article>
+          <h3>AI Agent 智能体搭建</h3>
+          <p>工具调用、任务编排、多轮自主执行。</p>
+        </article>
+        <article>
+          <h3>多模态文档处理</h3>
+          <p>PDF / 图片 / 表格解析、图文混合向量化。</p>
+        </article>
+        <article>
+          <h3>模型接口与适配</h3>
+          <p>DeepSeek / 通义千问等主流模型对接。</p>
+        </article>
+        <article>
+          <h3>向量数据库工程化</h3>
+          <p>Milvus / Chroma 部署、索引调优、海量数据存储。</p>
+        </article>
+        <article>
+          <h3>Python 后端开发</h3>
+          <p>AI 服务封装、接口开发、应用全链路调试。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Work</p>
+        <h2>代表项目</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <span class="project-index">01</span>
+          <h3>企业 RAG 知识库问答系统</h3>
+          <p>
+            面向企业知识资产构建文档入库、向量检索、上下文召回与问答生成链路，提升内部知识检索效率。
+          </p>
+        </article>
+        <article class="project-card">
+          <span class="project-index">02</span>
+          <h3>多模态文档智能处理 Agent 平台</h3>
+          <p>
+            结合文档解析、图文混合向量化与 Agent 工具编排，支持复杂文档理解和自动化处理流程。
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>tao-dev</span>
+    <a href="mailto:tao2006dev@outlook.com">tao2006dev@outlook.com</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
